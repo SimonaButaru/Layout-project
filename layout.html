@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>layout</title>
+    <style>
+          body {
+            width: 100%;
+      margin: 50px;
+          }
+          .container {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+          }
+          .card {
+
+            flex: 1;
+            padding: 20px;
+          }
+       img{
+      max-width:100%;
+      border-radius: 10px;
+       }
+       .icons{
+       display:flex;
+       justify-content:center;
+       width:30%;
+       margin: 0 auto;
+       align-items: center;
+       }
+       .stars, .hearts {
+       flex:1;
+
+       }
+       .rating{
+       flex:1;
+       }
+
+       div.buttons{
+           display: flex;
+        align-items: center;
+        justify-content: center;
+
+       }
+
+       .button{
+       width:20%;
+       }
+
+       .p {
+       display: flex;
+       align items: center;
+       }
+
+       .paragraph{
+           display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="image">
+          <img src="blonde.jpg" alt="men" />
+        </div>
+        <div class="icons">
+          <span class="stars">⭐</span>
+          <span class="rating">5.0</span>
+          <span class="hearts">💓</span>
+          <span class="rating">29</span>
+        </div>
+        <div class="paragraph">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolorem
+            harum explicabo ipsa
+          </p>
+          <div class="buttons">
+            <button class="button">CART</button>
+            <button class="button">VIEW</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img src="men.jpg" alt="men" />
+        </div>
+        <div class="icons">
+          <span class="stars">⭐</span>
+          <span class="rating">5.0</span>
+          <span class="hearts">💓</span>
+          <span class="rating">29</span>
+        </div>
+        <div class="paragraph">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolorem
+            harum explicabo ipsa
+          </p>
+          <div class="buttons">
+            <button class="button">CART</button>
+            <button class="button">VIEW</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img src="woman.jpg" alt="woman" />
+        </div>
+        <div class="icons">
+          <span class="stars">⭐</span>
+          <span class="rating">5.0</span>
+          <span class="hearts">💓</span>
+          <span class="rating">29</span>
+        </div>
+        <div class="paragraph">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolorem
+            harum explicabo ipsa
+          </p>
+          <div class="buttons">
+            <button class="button">CART</button>
+            <button class="button">VIEW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
